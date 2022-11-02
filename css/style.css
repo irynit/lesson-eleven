@@ -30,19 +30,24 @@ a {
 
 .wrraper {
   max-width: 1440px;
-  margin: 0 auto;
+  padding-top: 150px;
+  /* margin: 0 auto; */
 }
 
-.header__container {
-  max-width: 1200px;
+.header {
   position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.header__container {
+  margin: 0 auto;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 600px;
-}
-
-.header__button {
   font-family: 'Tourney';
   font-style: normal;
   font-weight: 600;
@@ -81,16 +86,26 @@ a {
   max-width: 238px;
   margin: 13px 0;
 }
+.content__container {
+  /* max-width: 1440px;
+  display: flex;
+  flex-direction: column; */
+  
+
+}
 
 .sidebar {
-  position: sticky;
-  top: 150px;
-  max-width: 385px;
+
+  /* position: sticky;
+  top: 150px; */
+  width: 100%;
 }
+
 
 .sidebar__container {
   max-width: 385px;
   padding: 10px;
+  margin: 0 auto;
 }
 
 .sidebar__menu {
